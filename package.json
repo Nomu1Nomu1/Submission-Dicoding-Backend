@@ -1,0 +1,25 @@
+{
+  "name": "submission",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon start.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.45.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^16.0.1",
+    "eslint-plugin-promise": "^6.1.1"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "nanoid": "^3.0.0",
+    "nodemon": "^3.0.1"
+  }
+}
